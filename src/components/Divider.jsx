@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
-const Hero = () => {
+const Divider = () => {
   useGSAP(() => {
     gsap.to("#hero", { opacity: 1, delay: 0.5 });
     // gsap.to("#cta", { opacity: 1, y: -80, delay: 2 });
@@ -10,9 +10,9 @@ const Hero = () => {
   return (
     <section className="w-screen overflow-hidden h-full common-padding bg-black relative">
       <div className="screen-max-width">
-        <div className="mb-3 w-full md:flex items-end justify-between">
+        <div className="mb-10 w-full md:flex items-end justify-between">
           <h1 id="hero" className="section-heading">
-            Spotify Wrapped: 2024 Q2 Shareholder Report
+            Overview
           </h1>
           {/* 
       <div className="h-5/6 w-full flex-center flex-col">
@@ -25,4 +25,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Divider;

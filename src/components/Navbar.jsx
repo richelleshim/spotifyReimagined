@@ -28,12 +28,12 @@ const Navbar = () => {
           // onClick={setIsPlay(!isPlay)}
         />
         <div className="flex flex-1 justify-center items-end max-sm:hidden">
-          <div className="px-5 text-sm cursor-pointer text-black hover:text-white transition-all">
+          {/* <div className="px-5 text-sm cursor-pointer text-black hover:text-white transition-all">
             Project
           </div>
           <div className="px-5 text-sm cursor-pointer text-black hover:text-white transition-all">
             Overview (Process + Reflections)
-          </div>
+          </div> */}
         </div>
       </nav>
     </header>

@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import PhotoCarousel from "./components/PhotoCarousel";
+import PhotoGrid from "./components/PhotoGrid";
+import Divider from "./components/Divider";
 
 const App = () => {
   // useEffect(() => {
@@ -12,8 +14,9 @@ const App = () => {
     <main className="bg-black">
       <Navbar />
       <Hero />
-      <PhotoCarousel />
-      {/* <Highlights /> */}
+      <PhotoCarousel className="h-[60%]" />
+      <Divider />
+      <PhotoGrid />
     </main>
   );
 };

@@ -39,13 +39,12 @@ const PhotoCarousel = () => {
           clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation, Keyboard]}
-        className="swiper_container"
+        className="swiper-container h-[25vh]"
       >
         {hightlightsSlides.map((currentPage, index) => (
-          <div id="slide" key={currentPage.id}>
-            <SwiperSlide id="slide">
+          <div key={currentPage.id}>
+            <SwiperSlide className=" h-[25vh]">
               <img
-                id="slide"
                 // alt={`Slide ${slide.id}`}
                 onLoadedMetadata={(e) => handleLoadedMetaData(i, e)}
                 src={currentPage.page}
